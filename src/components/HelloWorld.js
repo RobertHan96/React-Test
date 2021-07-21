@@ -16,7 +16,7 @@ handlePlusClick = () => {
 this.setState({ count: this.state.count + 1})
 // 이렇게 두번 호출하면 어떻게 될까?
 // this.setState({ count: this.state.count + 1}) // this.setState({ count: this.state.count + 1})
-}P
+}
    render() {
      return (
        <div>
