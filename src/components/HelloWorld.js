@@ -22,7 +22,7 @@ this.setState({ count: this.state.count + 1})
        <div>
          Hello {this.props.name}!
          <span>{this.state.count}</span>
-         <button onClick={this.handlePlusClick}>+1</button>
+         <button onClick={this.handlePlusClick}>+2</button>
 </div> )
 } }
 
